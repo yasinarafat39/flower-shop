@@ -230,7 +230,6 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin: 16px 0 48px;
-
 }
 
 .subscribe-form input[type="email"] {
@@ -240,4 +239,32 @@ body {
 }
 .subscribe-form input[type="submit"] {
   margin-left: 16px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #111010;
+  text-align: center;
+  padding: 128px 0;
+  margin-top: 128px;
+}
+
+footer .title {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+}
+
+footer .description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
 }
