@@ -17,6 +17,10 @@ body {
   color: #e55473;
 }
 
+.secondary-color{
+  background: rgba(229, 84, 115, 0.05);
+}
+
 .dark-1 {
   color: #272727;
 }
@@ -107,7 +111,7 @@ body {
 }
 
 /* Our Characteristics */
-.characteristics-list { 
+.characteristics-list {
   display: flex;
   justify-content: space-between;
   margin: 128px 240px;
@@ -116,7 +120,7 @@ body {
   background: rgba(39, 39, 39, 0.05);
 }
 
-.characteristics-item{
+.characteristics-item {
   text-align: center;
 }
 
@@ -125,4 +129,29 @@ body {
   font-weight: 600;
   line-height: 35px;
   margin-top: 25px;
+}
+
+/* Hot Deal Section */
+
+.hot-deal{
+  display: flex;
+  gap: 186px;
+  justify-content: space-between;
+  align-items: center; 
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 429px 100px 395px;
+}
+
+.hot-deal title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.hot-deal .description{
+  margin: 24px 0 32px;
+}
+
+.hot-deal .text-content{
+  text-align: center;
 }
