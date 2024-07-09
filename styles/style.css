@@ -17,7 +17,7 @@ body {
   color: #e55473;
 }
 
-.secondary-color{
+.secondary-color {
   background: rgba(229, 84, 115, 0.05);
 }
 
@@ -71,8 +71,7 @@ body {
 
 /* our-featured-flowers */
 
-.our-featured-flowers {
-  border: 2px solid tomato;
+.our-featured-flowers { 
   margin: 178px 240px 128px;
 }
 
@@ -102,12 +101,42 @@ body {
 .flower1 {
   border-radius: 50% 50% 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+  height: 538px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
-.flower-card img {
-  border: 2px solid green;
+.flower1 img {
   width: 310px;
   height: 428px;
+}
+
+.flower2 {
+  border-radius: 50% 50% 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  height: 538px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower3 {
+  border-radius: 50% 50% 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  height: 538px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.flower-name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 32px;
 }
 
 /* Our Characteristics */
@@ -133,11 +162,11 @@ body {
 
 /* Hot Deal Section */
 
-.hot-deal{
+.hot-deal {
   display: flex;
   gap: 186px;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   background: rgba(229, 84, 115, 0.05);
   padding: 100px 429px 100px 395px;
 }
@@ -148,10 +177,10 @@ body {
   line-height: 48px;
 }
 
-.hot-deal .description{
+.hot-deal .description {
   margin: 24px 0 32px;
 }
 
-.hot-deal .text-content{
+.hot-deal .text-content {
   text-align: center;
 }
