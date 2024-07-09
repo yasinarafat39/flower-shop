@@ -171,7 +171,7 @@ body {
   padding: 100px 429px 100px 395px;
 }
 
-.hot-deal title {
+.hot-deal .title {
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
@@ -186,7 +186,7 @@ body {
 }
 
 /* Instagram section */
-.instagram-section { 
+.instagram-section {
   margin: 128px 240px;
 }
 
@@ -207,11 +207,37 @@ body {
   line-height: 30px;
 }
 
-.instagram-flowers{
+.instagram-flowers {
   display: flex;
   gap: 24px;
 }
 
-.instagram-flowers p img{
- 
+/* Latest Deal section */
+
+.latest-deals {
+  background: url("../Flower\ Asset/");
+  text-align: center;
+}
+
+.latest-deals .title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.latest-deals .sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 16px 0 48px;
+
+}
+
+.subscribe-form input[type="email"] {
+  padding: 22px 513px 22px 22px;
+  border: none;
+  border-radius: 8px;
+}
+.subscribe-form input[type="submit"] {
+  margin-left: 16px;
 }
